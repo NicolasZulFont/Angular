@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <h1 id="title">Iniciar Sesión</h1>
+    </div>
+    <div class="row" id="formContainer">
+        <div>
+            <div class="row linea">
+                <h1>Nombre de usuario</h1>
+                <input type="text" class="inputClass1" id="username" value="">
+            </div>
+            <div class="row linea">
+                <h1>Contraseña</h1>
+                <input [type]="show ? 'text' : 'password'" class="inputClass1" id="password" value="">
+                <div class="row" id="contraView">
+                    <button  id="passwordView">
+                        <div class="row asas">
+                            <div class="col-1">
+                                <i class="bi bi-eye-fill"></i>
+                            </div>
+                            <div class="col-11">
+                                <p>Mostrar contraseña</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="row linea" id="containerBtnForm">
+                <button id="btnform" (click)="logIn()">Iniciar Sesión</button>
+            </div>
+        </div>
+    </div> 
+</div>

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&display=swap');
+#img1{
+    width: 100%;
+    border-radius: 35px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway';
+}
+#title{
+    margin-top: 2%;
+    font-family: "Righteous";
+    margin-bottom: 5%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 32pt;
+}
+#formContainer{
+    padding: 0 2%;
+    width: 100%;
+    color: white;
+}
+#containerForm{
+    background-color: brown;
+    border-radius: 35px;
+}
+.inputLabel{
+    font-family: "Raleway";
+    font-size: 1em;
+    margin: 0;
+}
+.input{
+    border: 1px solid white;
+    border-radius: 35px;
+    height: 40px;
+    font-family: "Raleway";
+    color: white;
+    padding-left: 5%;
+    background-color: transparent;
+    width: 100%;
+}
+.input:hover{
+    border: 2px solid #DBA83E;
+}
+.input:focus{
+    outline: unset;
+    border: 2px solid #DBA83E;
+}
+.btnSutmit{
+    background-color: white;
+    color: brown;
+    border-radius: 35px;
+    border: 0;
+    margin-top: 1%;
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+}
+#passwordView{
+    border: 0;
+    width: 100%;
+    color: white;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+#passwordView:hover{
+    color: rgb(219, 168, 62);
+}
+.asas{
+    margin: 1%;
+    padding: 0;
+}

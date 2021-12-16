@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&display=swap');
+#icon{
+    margin-left: 10%;
+    color: green;
+    font-size: 72pt;
+}
+#title{
+    font-family: "Righteous";
+    color: green;
+    font-size: 24pt;
+    margin: 1% 0 0 1%;
+}
+#btn{
+    margin-left: 9%;
+    border-radius: 35px;
+    border: 0;
+    background-color: green;
+    color: white;
+    width:150px;
+    height: 40px;
+}

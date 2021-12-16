@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&display=swap');
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway';
+}
+#title{
+    font-family: "Righteous";
+    margin-bottom: 5%;
+    width: 100%;
+    text-align: center;
+    color: brown;
+    font-size: 24pt;
+}
+#formContainer{
+    width: 80%;
+    color: brown;
+}
+.linea{
+    margin-bottom: 5%;
+}
+#formContainer h1{
+    font-size: 18px;
+}
+.inputClass1{
+    height: 40px;
+    border: 2px solid brown ;
+    border-radius: 35px;
+}
+.inputClass1:hover{
+    border: 2px solid rgb(219, 168, 62) ;
+}
+.inputClass1:focus{
+    outline: unset;
+    border: 2px solid rgb(219, 168, 62)
+}
+#btnform{
+    font-size: "Righteous";
+    width: 60%;
+    height: 40px;
+    border: 0;
+    border-radius: 35px;
+    color: white;
+    background-color: brown;
+}
+#containerBtnForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.lin1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+#passwordView{
+    border: 0;
+    width: 100%;
+    color: brown;
+    padding: 0;
+    margin: 0;
+}
+#passwordView:hover{
+    color: rgb(219, 168, 62);
+}
+#contraView{
+    display: flex;
+    flex-direction: row;
+}
+.asas{
+    margin: 1%;
+    padding: 0;
+}

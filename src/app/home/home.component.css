@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&display=swap');
+#body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url('../../assets/fondo1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#contenido{
+    margin: 20% 0 0 5%;
+    color: white;
+    
+}
+#title{
+    font-family: "Righteous";
+    font-size: 32pt;
+}
+#contenido p{
+    text-align: justify;
+    font-size: 16pt;
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+.nombre{
+    font-family: "Righteous";
+    font-weight: 400;
+}
+#btnRegister{
+    border: 0;
+    padding: 2% 10%;
+    border-radius: 35px;
+    background-color: white;
+    color: brown;
+    font-size: 18px;
+}
+#btnRegister:active{
+    background-color: brown;
+    color: white;
+}

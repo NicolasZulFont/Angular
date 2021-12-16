@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&display=swap');
+#container{
+    padding-top: 100px;
+}
+  
+  .signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  #formProducto {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid brown;
+    border-radius: 35px;
+    outline: none;
+  }
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #A8802F;
+    color: white;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2 a {
+    color: #49c1a2;
+  }
+  input[type="button"]:hover{
+    color: #E5E7E9;
+    background: crimson;
+    border: 1px solid #283747;
+  }
+.titulo{
+    font-family: "Righteous";
+    font-size: 24pt;
+    margin-left: 1%;
+    padding-top: 15px;
+    color: brown
+}
+.btnCrud{
+  margin-right: 1%;
+  border: 0;
+  background-color: brown;
+  color: white;
+  border-radius: 50%;
+}
+.btnCrud:hover{
+  background-color: rgb(168, 128, 62);
+}
+.btnCrud:active{
+  background-color: rgb(246, 140, 54);
+}
+#btnCrear{
+    margin-top: 4%;
+  background-color: brown;
+  border-radius: 35px;
+  border: 0;
+}
+#btnCrear:hover{
+  background-color: rgb(168, 128, 62);
+}
+#btnCrear:active{
+  background-color: rgb(246, 140, 54);
+}
+#editar{
+  color: brown;
+  border:0;
+  
+}
+#editar:hover{
+  color: rgb(219,168,62)
+}
+#editar:active{
+  color: rgb(219,168,62)
+}
+#search{
+  border:0;
+  border-bottom: 1px solid brown;
+}
+#search:hover{
+  border-bottom: 1px solid rgb(246, 140, 54);
+}
+#search:focus{
+  border:0;
+  border-bottom: 1px solid rgb(246, 140, 54);
+}
